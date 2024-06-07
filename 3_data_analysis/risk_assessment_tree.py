@@ -34,11 +34,29 @@ y = data['cardio']
 # Convert categorical variables to dummy/indicator variables
 X = pd.get_dummies(X)
 
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
 # Initialize the Decision Tree Classifier
 clf = DecisionTreeClassifier()
 
 # Train the classifier with the training data
-clf.fit(X,y)
+clf.fit(X_train,y_train)
+
+# Make predictions on the test data
+y_pred = clf.predict(X_test)
+
+# Evaluate the model
+accuracy = accuracy_score(y_test, y_pred)
+print(f'Accuracy: {accuracy:.2f}')
+
+# Print the classification report
+print('Classification Report:')
+print(classification_report(y_test, y_pred))
+
+# Print the confusion matrix
+print('Confusion Matrix:')
+print(confusion_matrix(y_test, y_pred))
 
 # Plot the decision tree
 plt.figure(figsize=(20, 10))
