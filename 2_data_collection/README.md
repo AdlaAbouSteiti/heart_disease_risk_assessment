@@ -19,4 +19,6 @@ Before conducting the analysis, the dataset was thoroughly checked for cleanline
 ## Calculating BMI
 
 Body Mass Index (BMI) was calculated using the following formula:
-\[ \text{BMI} = \frac{\text{Weight (kg)}}{\left(\frac{\text{Height (cm)}}{100}\right)^2} \]
+\[
+\text{BMI} = \frac{\text{Weight (kg)}}{\left(\frac{\text{Height (cm)}}{100}\right)^2}
+\]
