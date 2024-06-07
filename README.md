@@ -19,7 +19,7 @@ The primary purpose of this project is to enable individuals to assess their ris
 
 1. **Input Data:** Provide data on key health indicators including BMI, blood pressure, and cholesterol levels.
 2. **Run Analysis:** Utilize the decision tree model to assess the individual's risk of developing heart disease based on the input data.
-3. **Receive Recommendations:** Receive personalized recommendations for lifestyle modifications, diet changes, exercise regimens, and medical interventions tailored to the individual's specific risk profile.
+3. **Take Action:** Based on your result you can make decissions regarding lifestyle modifications, diet change, or consulting specialest.
 
 ## Benefits
 
