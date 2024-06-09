@@ -14,4 +14,4 @@ The data analysis phase of this project involved: First, catigorizing the datase
 
 4. **Correlation Analysis:** Between each health indicator and the risk of developing heart disease percentage.
 
-5. **(Decision Tree:)[`risk_assessment_tree.py`]** A decision tree model was trained using the dataset to predict the likelihood of an individual having heart disease based on their health indicators. The decision tree takes input parameters such as BMI category, blood pressure category, and cholesterol level, and provides a percentage likelihood of heart disease risk
+5. **[Decision Tree:][`risk_assessment_tree.py`]** A decision tree model was trained using the dataset to predict the likelihood of an individual having heart disease based on their health indicators. The decision tree takes input parameters such as BMI category, blood pressure category, and cholesterol level, and provides a percentage likelihood of heart disease risk
