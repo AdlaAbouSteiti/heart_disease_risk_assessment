@@ -20,4 +20,4 @@ Before conducting the analysis, the dataset was thoroughly checked for cleanline
 
 Body Mass Index (BMI) was calculated using the following formula:
 
-BMI = Weight (kg)/ (Height (m))^2
+BMI = $$\frac{\text{Weight (kg)}} {\text{(Height (m))^2}}$$
